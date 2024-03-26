@@ -26,5 +26,3 @@ def main_function():
     if not test_scores_service(r'http://127.0.0.1:5000/score'):
         exit(-1)  # Tests failed
     exit()  # Tests passed
-
-
